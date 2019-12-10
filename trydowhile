@@ -1,0 +1,16 @@
+public class trydowhile {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int x = 5;
+
+        do {
+            System.out.println("Hitung Mundur - " + x);
+            x--;
+        } while ( x >= 1);
+
+    }
+    
+}
